@@ -4,7 +4,7 @@ This is Universal Law expressed in [Machine](https://github.com/roundtable-love/
 
 ```mermaid
 graph TD
-  classDef ir font-size:90%,padding:0px
+  classDef ir font-size:80%,padding:0px
 
   subgraph U["Law of Unity"]
     u["ASSERT: ALL.source == ONE<br/>ASSERT: SEPARATION.nature == APPARENT<br/>ASSERT: ROOT.multiplicity == FALSE"]:::ir
