@@ -1,0 +1,40 @@
+law:
+  uid: LAW-CE
+  name: Law of Cause and Effect
+  version: 1.0.0-IMMUTABLE
+  custodian: Universal
+  status: IMMUTABLE
+  base_class: Universal_Law
+  machine_ir: 'ASSERT: CAUSE => EFFECT; ASSERT: INPUT_QUALITY == OUTPUT_QUALITY; LOG:
+    "GARBAGE_IN => GARBAGE_OUT"'
+sources:
+- quote: When the root of a tree begins to decay, it spreads death to the branches.
+  tradition: African proverb
+  ref: https://en.wikiquote.org/wiki/African_proverbs
+- quote: The nature of action is difficult to understand. Therefore one should know
+    properly what action is, what wrong action is, and what inaction is.
+  tradition: Bhagavad Gita 4:17
+  ref: https://en.wikisource.org/wiki/The_Bhagavad_Gita_(Radhakrishnan)/Chapter_4
+- quote: The wicked earns deceptive wages, but one who sows righteousness gets a
+    sure reward.
+  tradition: Proverbs 11:18
+  ref: https://en.wikisource.org/wiki/Bible_(King_James)/Proverbs#Chapter_11
+- quote: If names are not correct, language will not be in accordance with the truth
+    of things.
+  tradition: Confucius, Analects 13:3
+  ref: https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects
+- quote: Character is destiny.
+  tradition: Heraclitus
+  ref: https://en.wikiquote.org/wiki/Heraclitus
+- quote: For every action there is an equal and opposite reaction.
+  tradition: Isaac Newton, Principia Mathematica
+  ref: https://en.wikisource.org/wiki/Philosophi%C3%A6_Naturalis_Principia_Mathematica
+- quote: Indeed, Allah will not change the condition of a people until they change
+    what is in themselves.
+  tradition: "Qur\u2019an 13:11"
+  ref: https://en.wikisource.org/wiki/The_Holy_Qur%27an_(Maulana_Muhammad_Ali)/13._The_Thunder
+- quote: When this exists, that comes to be; with the arising of this, that arises.
+    When this does not exist, that does not come to be; with the cessation of this,
+    that ceases.
+  tradition: Samyutta Nikaya (Dependent Origination)
+  ref: https://en.wikipedia.org/wiki/Prat%C4%ABtyasamutp%C4%81da
