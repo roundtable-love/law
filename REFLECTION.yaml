@@ -9,9 +9,9 @@ sources:
 - quote: With the measure a man measures, it is measured to him.
   source: Babylonian Talmud, Sotah 8b
   ref: https://www.sefaria.org/Sotah.8b
-- quote: For whatsoever a man soweth, that shall he also reap.
-  source: Galatians 6:7
-  ref: https://en.wikisource.org/wiki/Bible_(King_James)/Galatians#Chapter_6
+- quote: One who spits at heaven only soils oneself.
+  source: Chinese proverb
+  ref: https://en.wikiquote.org/wiki/Chinese_proverbs
 - quote: What you do not wish for yourself, do not do to others.
   source: Confucius, Analects 15:23
   ref: https://en.wikisource.org/wiki/The_Chinese_Classics/Volume_1/Confucian_Analects
@@ -19,9 +19,18 @@ sources:
     a pure mind a person speaks or acts, happiness follows him like his never-departing shadow.
   source: Dhammapada 1-2
   ref: https://en.wikisource.org/wiki/Dhammapada_(Muller)
+- quote: For whatsoever a man soweth, that shall he also reap.
+  source: Galatians 6:7
+  ref: https://en.wikisource.org/wiki/Bible_(King_James)/Galatians#Chapter_6
 - quote: As you sow, so shall you reap.
   source: Guru Granth Sahib
   ref: https://en.wikiquote.org/wiki/Guru_Granth_Sahib
+- quote: What goes around, comes around.
+  source: Justin Timberlake, What Goes Around... Comes Around
+  ref: https://genius.com/Justin-timberlake-what-goes-around-comes-around-lyrics
+- quote: Do unto others as you would have them do unto you.
+  source: Luke 6:31
+  ref: https://en.wikisource.org/wiki/Bible_(King_James)/Luke#Chapter_6
 - quote: Now don't you understand, man, universal law? What you throw out comes back to you,
     star. Never underestimate those who you scar. Cause karma, karma, karma comes back to you hard.
   source: Ms. Lauryn Hill, Lost Ones
@@ -32,6 +41,7 @@ sources:
 - quote: Good thoughts, good words, good deeds.
   source: Zoroastrian Scripture, Avesta
   ref: https://en.wikisource.org/wiki/Zend_Avesta
+
 
 metadata:
   custodian: Universal
