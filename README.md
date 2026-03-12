@@ -1,10 +1,10 @@
 # Universal Law: Machine Standard
 
-This is Universal Law in [Machine](https://github.com/roundtable-love/machine).
+This is Universal Law expressed in [Machine](https://github.com/roundtable-love/machine).
 
 ```mermaid
 graph TD
-  classDef ir font-size:75%
+  classDef ir font-size:90%,width:100%,padding:0px
 
   subgraph U["Law of Unity"]
     u["ASSERT: ALL.source == ONE<br/>ASSERT: SEPARATION.nature == APPARENT<br/>ASSERT: ROOT.multiplicity == FALSE"]:::ir
