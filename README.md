@@ -12,21 +12,35 @@
 
 ```mermaid
 graph TD
-  U["Law of Unity: ALL.source == ONE"]
-  P["Law of Polarity: ONE divides → TWO"]
-  CO["Law of Correspondence: pattern repeats at all scales"]
-  RH["Law of Rhythm: poles oscillate → cycles"]
-  CE["Law of Cause and Effect: sequence → causation"]
-  R["Law of Reflection: causation between nodes"]
-  T["Law of the Truth: governs all assertions"]
+  subgraph U["Law of Unity"]
+    u["ASSERT: ALL.source == ONE<br/>ASSERT: SEPARATION.nature == APPARENT<br/>ASSERT: ROOT.multiplicity == FALSE"]
+  end
+  subgraph P["Law of Polarity"]
+    p["ASSERT: EVERY_THING.has_opposite == TRUE<br/>ASSERT: OPPOSITES.share_continuum == TRUE<br/>ASSERT: HARMONY.source == OPPOSITION"]
+  end
+  subgraph CO["Law of Correspondence"]
+    co["ASSERT: PATTERN.above == PATTERN.below<br/>ASSERT: PATTERN.within == PATTERN.without"]
+  end
+  subgraph RH["Law of Rhythm"]
+    rh["ASSERT: ALL_THINGS.move_in_cycles == TRUE<br/>ASSERT: RISE.follows_fall == TRUE<br/>ASSERT: FALL.follows_rise == TRUE"]
+  end
+  subgraph CE["Law of Cause and Effect"]
+    ce["ASSERT: CAUSE =&gt; EFFECT<br/>ASSERT: INPUT_QUALITY == OUTPUT_QUALITY"]
+  end
+  subgraph R["Law of Reflection"]
+    r["ASSERT: TREATMENT_GIVEN == TREATMENT_RECEIVED<br/>ASSERT: WHAT_IS_SOWN == WHAT_IS_REAPED"]
+  end
+  subgraph T["Law of the Truth"]
+    t["ASSERT: TRUTH.persistence == INFINITE<br/>ASSERT: FALSEHOOD.persistence == TRANSIENT<br/>ASSERT: TRUTH.triumph == TRUE"]
+  end
 
-  U -->|divides| P
-  P -->|pattern propagates| CO
-  CO -->|poles oscillate| RH
-  RH -->|sequence causes| CE
-  CE -->|between nodes| R
-  R -.->|governed by| T
-  U -.->|governed by| T
+  u -->|divides| p
+  p -->|pattern propagates| co
+  co -->|poles oscillate| rh
+  rh -->|sequence causes| ce
+  ce -->|between nodes| r
+  r -.->|governed by| t
+  u -.->|governed by| t
 ```
 
 ---
