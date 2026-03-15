@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class Polarity(UniversalLaw):
     name = "Law of Polarity"
     code = "STATE == 1 ^ STATE == 0"
+    machine_ir = "ASSERT: EVERY_THING.has_opposite == TRUE; ASSERT: OPPOSITES.share_continuum == TRUE; ASSERT: HARMONY.source == OPPOSITION"
     uid = "quotes-P"
     sources = (
         Source(

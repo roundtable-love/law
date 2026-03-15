@@ -11,6 +11,7 @@ class Source:
 class UniversalLaw:
     name: str
     code: str
+    machine_ir: str
     uid: str
     version: str = "1.0.0-IMMUTABLE"
     sources: tuple[Source, ...]

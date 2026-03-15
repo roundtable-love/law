@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class CauseAndEffect(UniversalLaw):
     name = "Law of Cause and Effect"
     code = "OUTPUT == ROOT.execution"
+    machine_ir = 'ASSERT: CAUSE => EFFECT; ASSERT: INPUT_QUALITY == OUTPUT_QUALITY; LOG: "GARBAGE_IN => GARBAGE_OUT"'
     uid = "quotes-CE"
     sources = (
         Source(

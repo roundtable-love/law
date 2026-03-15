@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class Reflection(UniversalLaw):
     name = "Law of Reflection"
     code = "SYSTEM.state == ROOT.clarity"
+    machine_ir = "ASSERT: TREATMENT_GIVEN == TREATMENT_RECEIVED; ASSERT: WHAT_IS_SOWN == WHAT_IS_REAPED"
     uid = "quotes-R"
     sources = (
         Source(

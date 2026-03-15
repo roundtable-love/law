@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class Unity(UniversalLaw):
     name = "Law of Unity"
     code = "ALL.source == ROOT"
+    machine_ir = "ASSERT: ALL.source == ONE; ASSERT: SEPARATION.nature == APPARENT; ASSERT: ROOT.multiplicity == FALSE"
     uid = "quotes-U"
     sources = (
         Source(

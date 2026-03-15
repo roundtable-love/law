@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class Truth(UniversalLaw):
     name = "Law of Truth"
     code = "TRUTH.persistence == INF"
+    machine_ir = "ASSERT: TRUTH.persistence == INFINITE; ASSERT: FALSEHOOD.persistence == TRANSIENT; ASSERT: TRUTH.triumph == TRUE"
     uid = "quotes-T"
     sources = (
         Source(

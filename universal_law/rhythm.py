@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class Rhythm(UniversalLaw):
     name = "Law of Rhythm"
     code = "CLOCK.speed == ROOT.intent"
+    machine_ir = "ASSERT: ALL_THINGS.move_in_cycles == TRUE; ASSERT: RISE.follows_fall == TRUE; ASSERT: FALL.follows_rise == TRUE"
     uid = "quotes-RH"
     sources = (
         Source(

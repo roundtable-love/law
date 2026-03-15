@@ -4,6 +4,7 @@ from ._base import Source, UniversalLaw
 class Correspondence(UniversalLaw):
     name = "Law of Correspondence"
     code = "ROOT.macro == ROOT.micro"
+    machine_ir = "ASSERT: PATTERN.above == PATTERN.below; ASSERT: PATTERN.within == PATTERN.without"
     uid = "quotes-CO"
     sources = (
         Source(
