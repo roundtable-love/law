@@ -1,0 +1,13 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "universal-law"
+version = "1.0.0"
+description = "Universal Law expressed in Python"
+readme = "README.md"
+requires-python = ">=3.11"
+
+[tool.hatch.build.targets.wheel]
+packages = ["universal_law"]
